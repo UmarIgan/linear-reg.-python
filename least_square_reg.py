@@ -24,7 +24,7 @@ def least_square_fitting():
         xi.append(xii)
     r2=(st-s)/st#r square
     
-   # print(a, b, "square sum: ",  s, "r square:", r2 )
+    print("coeff1:", a,"coeff2:", b, "square sum:",  s, "r square:", r2 )
     plt.plot(x, y, '.')
     plt.plot(x, xi, '-')
     plt.show()
