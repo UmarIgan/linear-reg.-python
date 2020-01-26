@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 n=6 #number of array items
-x=[24, 32, 40, 48, 64, 80] #example data with distance and speed of an objec
+x=[24, 32, 40, 48, 64, 80] #example data with distance and speed of an object
 y=[4, 6, 10, 12, 18, 27]
 def least_square_fitting():
     
